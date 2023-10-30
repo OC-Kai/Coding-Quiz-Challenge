@@ -1,0 +1,110 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+body {
+display: flex;
+flex-direction: column;
+line-height: 1.5;
+font-family:Arial, Helvetica, sans-serif;
+font-size: 16px;
+}
+
+header {
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+button {
+    cursor: pointer;
+    color: white;
+    background-color: rgb(201, 128, 204);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid black;
+  
+}
+
+.quiz {
+    margin: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    }
+
+
+.start-button {
+    text-align: center;
+    margin:10px;
+}
+
+.highscore {
+    text-decoration: underline;
+}
+
+.timer {
+    margin-right: 30px;
+    
+}
+
+.answers {
+    margin: 20px;
+    text-align: center;
+}
+
+.answer-btn {
+    width: 40%;
+}
+
+.answer-section {
+    display: none;
+}
+
+.result {
+    
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+    margin-left:30%;
+    margin-right:30%;
+}
+
+.initials {
+    width: 20%;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(201, 128, 204);
+    color: white;
+    margin-left: 40%;
+    border-radius: 5px;
+    border: 3px solid black;
+    
+}
+
+.playAgainBtn {
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 20px;
+    width: 10%;
+    margin-left: 45%;
+}
+
+.submitBtn {
+margin-top: 30px;
+padding: 10px;
+font-size: 20px;
+width: 10%;
+margin-left: 45%;
+}
+
+.score-list {
+
+    text-align: center;
+    font-size: 30px;
+    list-style: none;
+}
